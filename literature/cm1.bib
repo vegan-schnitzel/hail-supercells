@@ -10,6 +10,7 @@
   pages        = {1530--1549},
   volume       = {64},
   file         = {:kirshbaum2007 - The Triggering of Orographic Rainbands by Small Scale Topography.pdf:PDF},
+  priority     = {prio3},
   publisher    = {American Meteorological Society},
 }
 
@@ -24,7 +25,9 @@
   number       = {3},
   pages        = {641--663},
   volume       = {74},
+  comment      = {Model setup is nicely explained, somewhat good graphs.},
   file         = {:dennis2017 - The Impact of Vertical Wind Shear on Hail Growth in Simulated Supercells.pdf:PDF},
+  priority     = {prio1},
   publisher    = {American Meteorological Society},
 }
 
@@ -34,9 +37,79 @@
   title     = {MetPy},
   doi       = {10.5065/D6WW7G29},
   language  = {en},
+  comment   = {Apparently this library can directly plot soundings from CM1-Output. See https://github.com/cwebster2/pyMeteo/blob/master/pymeteo/skewt.py},
   copyright = {BSD 3-Clause License},
   keywords  = {Software, Free computer software, Python (Computer program language), Open source software, Geospatial data, Data processing, Earth sciences},
+  priority  = {prio2},
   publisher = {UCAR/NCAR - Unidata},
+}
+
+ 
+@Article{lin2022,
+  author       = {Lin, Yuzhu and Kumjian, Matthew R.},
+  date         = {2022-01},
+  journaltitle = {Journal of the Atmospheric Sciences},
+  title        = {Influences of CAPE on Hail Production in Simulated Supercell Storms},
+  doi          = {10.1175/jas-d-21-0054.1},
+  issn         = {1520-0469},
+  number       = {1},
+  pages        = {179--204},
+  volume       = {79},
+  comment      = {Used independant-CAPE sounding, bute apart from that, I can copy some things.},
+  file         = {:lin2022 - Influences of CAPE on Hail Production in Simulated Supercell Storms.pdf:PDF},
+  priority     = {prio1},
+  publisher    = {American Meteorological Society},
+}
+
+ 
+@Article{weisman1982,
+  author       = {Weisman, M. L. and Klemp, J. B.},
+  date         = {1982-06},
+  journaltitle = {Monthly Weather Review},
+  title        = {The Dependence of Numerically Simulated Convective Storms on Vertical Wind Shear and Buoyancy},
+  doi          = {10.1175/1520-0493(1982)110<0504:tdonsc>2.0.co;2},
+  issn         = {1520-0493},
+  number       = {6},
+  pages        = {504--520},
+  volume       = {110},
+  comment      = {Here the idealized supercell sounding is presented. Change mixing ratio to alter CAPE, however, maximum buoyancy changes too. It's not independant!},
+  file         = {:weisman1982 - The Dependence of Numerically Simulated Convective Storms on Vertical Wind Shear and Buoyancy.pdf:PDF},
+  priority     = {prio1},
+  publisher    = {American Meteorological Society},
+}
+
+ 
+@Article{warren2017,
+  author       = {Warren, Robert A. and Richter, Harald and Ramsay, Hamish A. and Siems, Steven T. and Manton, Michael J.},
+  date         = {2017-07},
+  journaltitle = {Monthly Weather Review},
+  title        = {Impact of Variations in Upper-Level Shear on Simulated Supercells},
+  doi          = {10.1175/mwr-d-16-0412.1},
+  issn         = {1520-0493},
+  number       = {7},
+  pages        = {2659--2681},
+  volume       = {145},
+  comment      = {Authors compute their own soundings in which you can independantly change CAPE value. I don't know how to implement this in CM1.},
+  file         = {:warren2017 - Impact of Variations in Upper Level Shear on Simulated Supercells.pdf:PDF},
+  priority     = {prio2},
+  publisher    = {American Meteorological Society},
+}
+
+ 
+@Article{mccaul2001,
+  author       = {McCaul, Eugene W. and Weisman, Morris L.},
+  date         = {2001-04},
+  journaltitle = {Monthly Weather Review},
+  title        = {The Sensitivity of Simulated Supercell Structure and Intensity to Variations in the Shapes of Environmental Buoyancy and Shear Profiles},
+  doi          = {10.1175/1520-0493(2001)129<0664:tsosss>2.0.co;2},
+  issn         = {1520-0493},
+  number       = {4},
+  pages        = {664--687},
+  volume       = {129},
+  comment      = {That's the first paper which changed the original supercell sounding to something that allows to input CAPE without changing other characteristics.},
+  file         = {:mccaul2001 - The Sensitivity of Simulated Supercell Structure and Intensity to Variations in the Shapes of Environmental Buoyancy and Shear Profiles.pdf:PDF},
+  priority     = {prio3},
+  publisher    = {American Meteorological Society},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
