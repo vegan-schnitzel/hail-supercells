@@ -1,1 +1,3 @@
 *.sav
+.ipynb_checkpoints/
+data/
