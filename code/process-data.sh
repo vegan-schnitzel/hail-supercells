@@ -15,7 +15,9 @@ do
     IFILE=${SIMPATH}/MR${mr}/cm1out.nc
     
     # sounding in skew-t/log-p plot with hodograph
-    # select first time step and single grid box
+    # select first time step & single grid box &
+    # potential temperature, pressure, mixing ratio,
+    # horizontal wind components
     OFILE=${OUTPATH}/skewt-mr${mr}.nc
     $CDO $CDOFLGS -selname,th,prs,qv,u,v -seltimestep,1 \
                   -selindexbox,1,1,1,1 $IFILE $OFILE 
