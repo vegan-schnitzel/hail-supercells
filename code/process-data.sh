@@ -10,7 +10,7 @@ CDOFLGS="-L -O -f nc4"
 SIMPATH=/daten/model-course/WS2023/rw0064fu/cm1
 OUTPATH=/net/scratch/rw0064fu/fortran/belegarbeit/data
 
-for mr in 11 14 16
+for mr in 21 #11 14 16
 do
     IFILE=${SIMPATH}/MR${mr}/cm1out.nc
     
