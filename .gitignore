@@ -1,4 +1,4 @@
 *.sav
 .ipynb_checkpoints/
 data/*.nc
-anim/
+./anim
