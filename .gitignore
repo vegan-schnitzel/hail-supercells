@@ -1,4 +1,7 @@
 *.sav
 .ipynb_checkpoints/
 data/*.nc
-./anim
+# ignore symlink
+anim
+# but not directory
+!anim/
