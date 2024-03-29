@@ -1,6 +1,6 @@
 # Der Einfluss von CAPE auf bodennahen Hagel in simulierten Superzellen
 
-Diese Analyse verändert indirekt das CAPE einer Atmosphäre, in welcher Superzellen simuliert werden. Anschließend wird die Vertikalgeschwindigkeit und horizontale Ausprägung der Aufwindzone quantifiziert und die Auswirkungen auf den bodennahen Hagel betrachtet. Nähere Infos sind der schriftlichen [Ausarbeitung](RobertWright_Belegarbeit_CM1.pdf) zu entnehmen.
+Diese Analyse verändert indirekt das CAPE einer Atmosphäre, in welcher Superzellen simuliert werden. Anschließend wird die Vertikalgeschwindigkeit und horizontale Ausprägung der Aufwindzone quantifiziert und die Auswirkungen auf den bodennahen Hagel betrachtet. Nähere Infos sind der schriftlichen [Ausarbeitung](ausarbeitung) zu entnehmen.
 
 ![single frame](figs/MR14-fig.0037.png)
 

@@ -13,6 +13,7 @@
 .ipynb_checkpoints/
 data/*.nc
 literature/*.pdf
+RobertWright_Belegarbeit_CM1.pdf
 
 # ignore symlink
 anim
