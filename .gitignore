@@ -1,6 +1,19 @@
+# tex files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+
+*.swp
 *.sav
 .ipynb_checkpoints/
 data/*.nc
+literature/*.pdf
+
 # ignore symlink
 anim
 # but not directory
